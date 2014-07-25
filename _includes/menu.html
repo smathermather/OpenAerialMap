@@ -1,0 +1,21 @@
+<div class="ui vertical menu">
+{% for menu in site.data.menus %}
+    {% if menu.id == page.id %}
+    <a class="active item" href="{{ menu.url | prepend: site.baseurl }}">{{ menu.title }}</a>
+    {% else %}
+    <a class="item" href="{{ menu.url | prepend: site.baseurl }}">{{ menu.title }}</a>
+    {% endif %}
+
+    {% if menu.submenus %}
+    <div class="vertical menu" style="margin-left:20px">
+    {% for submenu in menu.submenus %}
+        {% if submenu.id == page.id %}
+            <a class="active item" href="{{ submenu.url | prepend: site.baseurl }}">{{ submenu.title }}</a>
+        {% else %}
+            <a class="item" href="{{ submenu.url | prepend: site.baseurl }}">{{ submenu.title }}</a>
+        {% endif %}
+    {% endfor %}
+    </div>
+    {% endif %}
+{% endfor %}
+</div>

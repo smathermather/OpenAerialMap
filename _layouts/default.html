@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="ui page grid">
+
+    <div class="row">
+        <div class="column">
+            <div class="ui huge inverted black block header">
+                {{ site.title }}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="four wide column">
+            {% include menu.html %}
+        </div>
+
+        <div class="twelve wide column main-content">
+            <div class="ui segment">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

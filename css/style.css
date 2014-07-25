@@ -1,0 +1,26 @@
+body {
+    background-color: #FFCC80;
+    font-family: "Open Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+/* fully fill grid, previous menu width was 15rem */
+.ui.vertical.menu {
+    width: 100%;
+}
+
+/* override default color and text-decoration */
+.block.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-content .ui {
+    padding: 20px;
+}
+
+.main-content p {
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
