@@ -6,6 +6,13 @@ id: oam-components
 
 {% include blocks/h1.html title="OAM components" %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+OpenAerialMap is a modular platform separated into a several components. By keeping everything separated it is easier to scale and distribute platform services.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+At the moment OpenAerialMap components are:
+
+* OAM Catalogue
+* OAM Server
+* OAM Management
+* OAM Processing
+
+<img class="ui image" src="{{ "/assets/OAM-concepts.png" | prepend: site.baseurl }}">
