@@ -26,3 +26,9 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* header image fixup */
+.ui.huge.black.header img.left.floated.image {
+    margin-bottom: inherit;
+    margin-right: 1ex;
+}
