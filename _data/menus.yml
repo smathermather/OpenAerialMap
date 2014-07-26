@@ -7,15 +7,15 @@
   id: oam-components
 
   submenus:
-  - title: OAM-Catalogue
+  - title: OAM Catalogue
     url: /oam-components/oam-c
     id: oam-c
-  - title: OAM-Server
+  - title: OAM Server
     url: /oam-components/oam-s
     id: oam-s
-  - title: OAM-Management
+  - title: OAM Management
     url: /oam-components/oam-m
     id: oam-m
-  - title: OAM-Processing
+  - title: OAM Processing
     url: /oam-components/oam-p
     id: oam-p

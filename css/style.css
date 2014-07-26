@@ -1,12 +1,14 @@
 body {
-    background-color: #FFCC80;
-    font-family: "Open Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #E69E63;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 
-/* fully fill grid, previous menu width was 15rem */
-.ui.vertical.menu {
-    width: 100%;
+
+
+/* submenu, move a bit to the left */
+.ui.vertical.menu .vertical.menu {
+    margin-left: 10px;
 }
 
 /* override default color and text-decoration */
@@ -21,6 +23,6 @@ body {
 
 .main-content p {
     text-align: justify;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
