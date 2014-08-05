@@ -37,3 +37,8 @@ body {
 .block.header.medium {
     background-color: #DDDDDD;
 }
+
+/* h3 background */
+.block.header.small {
+    background-color: #E6D9CF;
+}
