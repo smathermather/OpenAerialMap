@@ -32,3 +32,8 @@ body {
     margin-bottom: inherit;
     margin-right: 1ex;
 }
+
+/* h2 background */
+.block.header.medium {
+    background-color: #DDDDDD;
+}
