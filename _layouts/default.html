@@ -23,7 +23,7 @@
             {% include menu.html %}
         </div>
 
-        <div class="twelve wide column main-content">
+        <div id="the-content" class="twelve wide column main-content">
             <div class="ui segment">
                 {{ content }}
             </div>
@@ -31,5 +31,16 @@
     </div>
 </div>
 
+<script>
+jQuery(function ($) {
+    var the_content = $('#the-content').annotator();
+    the_content.annotator('addPlugin', 'Auth', {
+        'tokenUrl': 'http://annotateit.org/api/token'
+    });
+    the_content.annotator('addPlugin', 'Unsupported', {
+        message: "We're sorry the Annotator is not supported by this browser"
+    });
+});
+</script>
 </body>
 </html>

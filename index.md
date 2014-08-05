@@ -13,6 +13,13 @@ There have been multiple tries to start OpenAerialMap in the past. This current 
 Imagery from satellites, unmanned aerial vehicles (UAVs) and other aircraft is becoming increasingly available after a disaster. It is often difficult to determine what is available and easily access it. OpenAerialMap (OAM) seeks to solve this by providing a simple open way to process and provide imagery for humanitarian 
 response and disaster preparedness.
 
+{% include blocks/h2.html title="How to contribute" %}
+
+There are a couple of ways to contribute:
+
+* fork the github repository and creating a pull request
+* select any text on the page and add an annotation (you first need to login to [http://annotateit.org/]())
+
 {% include blocks/h1.html title="User profiles" %}
 
 These are some of the possible users profiled through community discussions:
