@@ -13,3 +13,5 @@ kramdown:
 
 permalink: pretty
 pygments: true
+
+safe: true
