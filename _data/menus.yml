@@ -2,6 +2,10 @@
   url: /
   id: index
 
+- title: OAM Concepts
+  url: /oam-concepts
+  id: oam-concepts
+
 - title: OAM Components
   url: /oam-components
   id: oam-components
@@ -10,12 +14,13 @@
   - title: OAM Catalogue
     url: /oam-components/oam-c
     id: oam-c
-  - title: OAM Server
-    url: /oam-components/oam-s
-    id: oam-s
   - title: OAM Management
     url: /oam-components/oam-m
     id: oam-m
   - title: OAM Processing
     url: /oam-components/oam-p
     id: oam-p
+  - title: OAM Server
+    url: /oam-components/oam-s
+    id: oam-s
+
