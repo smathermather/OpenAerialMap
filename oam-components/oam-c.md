@@ -14,7 +14,7 @@ Catalogue Index is an eventually consistent distributable database. In this cont
 
 The only way to interact with the Catalogue Index is through the Catalogue API, modifying the Index directly is not supported.
 
-The Index stores metadata about a **datasource**, basic information about users (hooks into OSM OAuth API), user to license mapping and other catalogue data.
+The Index stores metadata about a **datasource**, basic information about users, user to license mapping and other catalogue data.
 
 {% include blocks/h3.html title="Datasource metadata definition" %}
 
@@ -38,11 +38,11 @@ Every datasource in the Index has an unique identifier which will not change dur
 * timestamp_of_production - when was a datasource produced (i.e. originally acquired by a satellite)
 * timestamp_of_insertion - when was a datasource inserted in the catalogue
 * timestamp_of_update - when was a datasource updated in the catalogue
-* oam_status - status of the datasoruce (i.e. published, hidden, deleted, ...)
+* oam_status - status of the datasource (i.e. published, hidden, deleted, ...)
 
 {% include blocks/h3.html title="User definition" %}
 
-A OAM user is authenticated using an external OAuth service provided by OpenStreetMap [http://wiki.openstreetmap.org/wiki/OAuth](). However, it will be possible to use the OAM even without a working internet connection under following assumptions:
+A OAM user is authenticated using an external authentication providers. However, it will be possible to use the OAM even without a working internet connection under following assumptions:
 
 * user has at least once accessed and authenticated on the OAM
 * local copy of the Catalogue Index
